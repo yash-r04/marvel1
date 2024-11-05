@@ -93,8 +93,12 @@ each neuron in the hidden layer has a bias (assoiciated with a numerical value) 
 4. autonomous vehicles!
    and more
 
-# LAARGE language models
+# LARGE language models
 
+# Resources used to write this article
+[statquest](https://www.youtube.com/watch?v=CqOfi41LfDw&t=134s)
+
+[Neural Network Architectures & Deep Learning](https://www.youtube.com/watch?v=oJNHXPs0XDk)
 
 completed this as a side quest!
 [![Screenshot-2024-11-02-233445.png](https://i.postimg.cc/85jpY7bs/Screenshot-2024-11-02-233445.png)](https://postimg.cc/7GrrGYdy)
