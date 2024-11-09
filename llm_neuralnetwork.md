@@ -143,12 +143,28 @@ It gives the respose based on the instructions given in the input.
 
 ## Transformer Model
 
+The Transformer model is a deep learning architecture introduced primarily for natural language processing (NLP) tasks, though its applicability has expanded to other domains such as computer vision. Unlike traditional sequential models like Recurrent Neural Networks (RNNs), Transformers do not process data sequentially. Instead, they leverage self-attention mechanisms to model relationships between words (or tokens) in a sentence, regardless of their position.
+
+Main feature of transformer model are :
+
+1.Positional Encoding:
+
+Since the Transformer does not inherently process data sequentially, it requires a method to capture the order of words in a sentence. This is achieved through positional encoding, which assigns a unique vector to each word based on its position in the sequence. These position vectors are added to the input embeddings to provide information about the word’s relative position within the sentence.
+
+2. Self-Attention Mechanism:
+One of the core innovations of the Transformer model is the self-attention mechanism, which allows the model to focus on different parts of the input sequence when processing each word. Self-attention computes attention scores for each word relative to all other words in the sequence, which enables the model to capture contextual dependencies regardless of the distance between words. This mechanism is computed using three key vectors: queries (Q), keys (K), and values (V), which are learned during training. The attention scores are used to weight the values, resulting in an output that reflects the importance of different words to the current processing step.
+
+3.Multi-Head Attention:
+Instead of using a single attention mechanism, Transformers employ multi-head attention. This involves running several attention mechanisms in parallel (i.e., "heads"), each focusing on different aspects of the input sequence. The results of these parallel heads are then concatenated and linearly transformed. This allows the model to capture different types of relationships and dependencies between words.
+
+This is just an overview of tranformer, it's very interesting and honestly, I did not have much time to go deeper into this topic but I'm planning on it  (attention is all I need to give :))
 
 -----
 # Resources used to write this article
 [statquest](https://www.youtube.com/watch?v=CqOfi41LfDw&t=134s)
 [Nvidia article](https://www.nvidia.com/en-in/glossary/large-language-models/)
 [LLMs and Transformer](https://rpradeepmenon.medium.com/introduction-to-large-language-models-and-the-transformer-architecture-534408ed7e61)
+[Transformer](https://www.youtube.com/watch?v=SZorAJ4I-sA)
 [Neural Network Architectures & Deep Learning](https://www.youtube.com/watch?v=oJNHXPs0XDk)
 
 completed this as a side quest!
